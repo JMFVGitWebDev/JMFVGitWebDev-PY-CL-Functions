@@ -19,4 +19,12 @@
                 variable as the result.
 
 """
+def count_vowels(string):
 
+    count = 0
+
+    for i in range(1, len(string)):
+        if string[i] in ["A", "a", "E", "e", "I", "i", "O", "o", "U", "u", "Y", "y"]:
+            count += 1
+
+    return count
