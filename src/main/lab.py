@@ -23,7 +23,7 @@ def count_vowels(string):
 
     count = 0
 
-    for i in range(1, len(string)):
+    for i in range(0, len(string) - 1):
         if string[i] in ["A", "a", "E", "e", "I", "i", "O", "o", "U", "u", "Y", "y"]:
             count += 1
 
